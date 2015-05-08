@@ -1,5 +1,5 @@
 class HomeScreen < PM::Screen
-  title "RedPotion"
+  title "Storm App"
   stylesheet HomeScreenStylesheet
 
   def on_load

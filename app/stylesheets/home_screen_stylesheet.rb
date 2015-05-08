@@ -1,14 +1,14 @@
 class HomeScreenStylesheet < ApplicationStylesheet
 
   def root_view(st)
-    st.background_color = color.white
+    st.background_image = image.resource("storm_background_new.png")
   end
 
   def hello_world(st)
     st.frame = {w: 200, h: 30, centered: :both}
     st.color = color.black
     st.font = font.large
-    st.text = "Hello world"
+    st.text = "Welcome Storm Fan!"
   end
 
   def section(st)
